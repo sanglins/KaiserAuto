@@ -2,6 +2,11 @@
 
 KaiserAuto 是一款专为中小型团队设计的轻量级、高性能 CI/CD 自动化控制台。它通过无代理架构与现代化的 Web 交互，将复杂的流水线操作简化为直观的驾驶舱体验。
 
+![alt text](jiemian.png)
+![alt text](public/gn1.png)
+![alt text](public/pz2.png)
+![alt text](public/pz1.png)
+
 ---
 
 ## 🚀 核心价值 (Core Value)
@@ -46,6 +51,8 @@ npm run build
 
 # 启动服务
 npm run dev
+访问地址:http://localhost:3000
+账号:admin 密码:admin123
 ```
 
 ### 方式二：Docker 部署
