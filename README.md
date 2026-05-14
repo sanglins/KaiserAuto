@@ -75,7 +75,7 @@ docker run -d -p 3000:3000 --name kaiser-auto kaiser-auto
 ## ☕️ 投喂作者 (Support)
 如果您觉得这个项目对您有帮助，可以请作者喝杯咖啡 ☕️。您的支持是我持续维护和优化的动力！
 
-| 支付宝 | 微信支付 |
+| 支付宝 | 微信 |
 | :---: | :---: |
 | ![支付宝](public/qr_alipay.png) | ![微信支付](public/qr_wechat.png) |
 
