@@ -1,0 +1,12 @@
+{
+  "build-server-01": {
+    "folders": {
+      "lowcode": "",
+      "lowcodeqd": ""
+    },
+    "scripts": {
+      "lowcodeqd.sh": "",
+      "lowcodehd.sh": ""
+    }
+  }
+}
