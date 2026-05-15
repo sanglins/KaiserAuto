@@ -56,6 +56,14 @@ export default function RootLayout({
                   <span>自动化发布</span>
                 </Link>
                 <Link
+                  href="/sql-generator"
+                  className={`nav-item ${pathname === "/sql-generator" ? "active" : ""}`}
+                  title="SQL 生成器"
+                >
+                  <strong>•</strong>
+                  <span>SQL 生成器</span>
+                </Link>
+                <Link
                   href="/about"
                   className={`nav-item ${pathname === "/about" ? "active" : ""}`}
                   title="关于项目"
