@@ -32,7 +32,7 @@ KaiserAuto 是一款专为中小型团队设计的轻量级、高性能 CI/CD �
 
 ---
 
-### 4. SQL 批量生成引擎 (SQL Batch Generator)
+### 3. SQL 批量生成引擎 (SQL Batch Generator)
 专门为复杂数据库运维任务（如行政区划调整、层级重构）设计的生成工具：
 *   **内容替换模式 (REPLACE)**：批量 `Old -> New` 字符串替换，支持 `CASE WHEN` 逻辑优化。
 *   **关系迁移模式 (MIGRATE)**：支持通过名称映射自动查找目标 ID，并生成跨库/跨表的层级关联 SQL。
