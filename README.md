@@ -4,6 +4,7 @@ KaiserAuto 是一款专为中小型团队设计的轻量级、高性能 CI/CD �
 
 ![alt text](jiemian.png)
 ![alt text](public/gn1.png)
+![alt text](public/sqlgen.png)
 ![alt text](public/pz2.png)
 ![alt text](public/pz1.png)
 
@@ -26,8 +27,17 @@ KaiserAuto 是一款专为中小型团队设计的轻量级、高性能 CI/CD �
 *   **流式日志传输**：基于 SSE 技术，大并发下依然保持界面丝滑。
 *   **错误自动捕获**：智能识别 Shell 退出码，即时中断流程保护生产环境。
 
-### 3. 极简运维工具箱 (O&M Toolbox)
-*   **自定义运维脚本**、**可视化目录扫描器**、**跨环境配置克隆**。
+*   **SQL 批量生成引擎**：支持 `REPLACE` 与 `MIGRATE` 双模式，轻松处理万级行政区划调整。
+*   **可视化目录扫描器**、**自定义运维脚本**、**跨环境配置克隆**。
+
+---
+
+### 4. SQL 批量生成引擎 (SQL Batch Generator)
+专门为复杂数据库运维任务（如行政区划调整、层级重构）设计的生成工具：
+*   **内容替换模式 (REPLACE)**：批量 `Old -> New` 字符串替换，支持 `CASE WHEN` 逻辑优化。
+*   **关系迁移模式 (MIGRATE)**：支持通过名称映射自动查找目标 ID，并生成跨库/跨表的层级关联 SQL。
+*   **多维过滤体系**：支持主条件 + 无限制附加 `LIKE` 过滤条件，确保精准定位目标行。
+*   **安全验证机制**：一键生成“校验查询”语句，在执行 `UPDATE` 前先行验证数据范围。
 
 ---
 
@@ -86,7 +96,7 @@ docker run -d -p 3000:3000 --name kaiser-auto kaiser-auto
 
 | 支付宝 | 微信 |
 | :---: | :---: |
-| ![支付宝](public/qr_alipay.png) | ![微信支付](public/qr_wechat.png) |
+| ![支付宝](public/qr_alipay.png) | ![微信](public/qr_wechat.png) |
 
 ---
 
